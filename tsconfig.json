@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "allowUnreachableCode": false,
+    "strict": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2021"
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["./node_modules/**"]
+}
